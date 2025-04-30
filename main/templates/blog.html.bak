@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- Meta -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+<meta content="Latest news, updates, and insights from Holistic Foster Care Foundation. Stay informed about our mission, programs, and impact on underprivileged girls in Lahore." name="description"/>
+<meta content="Holistic Foster Care Foundation news, charity updates, girls education blog, nonprofit impact stories, Lahore charity news" name="keywords"/>
+<meta content="Holistic Foster Care Foundation" name="author"/>
+<!-- Open Graph / Social Media Meta Tags -->
+<meta content="News &amp; Updates - Holistic Foster Care Foundation" property="og:title"/>
+<meta content="Follow our latest news, stories of impact, and ongoing efforts to support girls' education." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://holisticfostercare.org/blog.html" property="og:url"/>
+<meta content="images/holistic-foster-care-blog-og.jpg" property="og:image"/>
+<!-- Twitter Card data -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="News &amp; Updates - Holistic Foster Care Foundation" name="twitter:title"/>
+<meta content="Discover the latest stories and impact of our foundation supporting girls in Pakistan." name="twitter:description"/>
+<!-- Canonical URL -->
+<meta href="https://holisticfostercare.org/blog.html" rel="canonical">
+<!-- Page Title -->
+<title>News &amp; Updates - Holistic Foster Care Foundation</title>
+<!-- Favicon Icon -->
+<link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+<!-- Google Fonts Css-->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Onest:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Bootstrap Css -->
+<link href="css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+<!-- SlickNav Css -->
+<link href="css/slicknav.min.css" rel="stylesheet"/>
+<!-- Swiper Css -->
+<link href="css/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Font Awesome Icon Css-->
+<link href="css/all.min.css" media="screen" rel="stylesheet"/>
+<!-- Animated Css -->
+<link href="css/animate.css" rel="stylesheet"/>
+<!-- Magnific Popup Core Css File -->
+<link href="css/magnific-popup.css" rel="stylesheet"/>
+<!-- Mouse Cursor Css File -->
+<link href="css/mousecursor.css" rel="stylesheet"/>
+<!-- Main Custom Css -->
+<link href="css/custom.css" media="screen" rel="stylesheet"/>
+</meta></head>
+<body>
+<!-- Preloader Start -->
+<div class="preloader">
+<div class="loading-container">
+<div class="loading"></div>
+<div id="loading-icon"><img alt="Holistic Foster Care Foundation loading" src="images/loader.svg"/></div>
+</div>
+</div>
+<!-- Preloader End -->
+<!-- Header Start -->
+<header class="main-header">
+<div class="header-sticky">
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+<!-- Logo Start -->
+<a aria-label="Holistic Foster Care Foundation homepage" class="navbar-brand" href="./" style="color: white;">
+<span>Holistic Foster Care Foundation</span>
+</a>
+<!-- Logo End -->
+<!-- Main Menu Start -->
+<div class="collapse navbar-collapse main-menu">
+<div class="nav-menu-wrapper">
+<ul class="navbar-nav mr-auto" id="menu">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="services.html">Our Programs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="team.html">Our Team</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="testimonials.html">Testimonials</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="blog.html">News &amp; Updates</a>
+</li>
+<li class="nav-item">
+                    <a href="donation.html" class="donate-btn">Support Us</a>
+                  </li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="faqs.html">FAQs</a>
+</li>
+</ul>
+</div>
+<!-- Contact Now Box Start -->
+<div class="contact-now-box">
+<div class="icon-box">
+<img alt="Contact phone icon" src="images/icon-phone.svg"/>
+</div>
+<div class="contact-now-box-content">
+<p>Need help?</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+</div>
+<!-- Contact Now Box End -->
+</div>
+<!-- Main Menu End -->
+<div class="navbar-toggle"></div>
+</div>
+</nav>
+<div class="responsive-menu"></div>
+</div>
+</header>
+<!-- Page Header Start -->
+<div class="page-header parallaxie">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<!-- Page Header Box Start -->
+<div class="page-header-box">
+<h1 class="text-anime-style-2" data-cursor="-opaque">
+<span>Latest</span> blog
+              </h1>
+<nav class="wow fadeInUp">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="./">home</a></li>
+<li aria-current="page" class="breadcrumb-item active">
+                    blog
+                  </li>
+</ol>
+</nav>
+</div>
+<!-- Page Header Box End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Page Header End -->
+<!-- Page Blog Start -->
+<div class="page-blog">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li>15 Mar, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">Grand Opening: A New Home of Hope for Girls in Lahore</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Holistic Foster Care Foundation Opening Ceremony in Lahore" src="images/post-1.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp" data-wow-delay="0.2s">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li>28 Apr, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">Education First: Our Partnership with Local Schools in Lahore</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Holistic Foster Care Foundation Education Program with Lahore Schools" src="images/post-2.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp" data-wow-delay="0.4s">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li>10 May, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">Holistic Development: Mental Health Support for Underprivileged Girls</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Mental Health Support Programs at Holistic Foster Care Foundation" src="images/post-3.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp" data-wow-delay="0.6s">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li>22 Jun, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">From UK to Pakistan: Batool Bibi's Journey of Compassion</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Batool Bibi Founder of Holistic Foster Care Foundation" src="images/post-4.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp" data-wow-delay="0.8s">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li>15 Jul, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">Skill Development Workshop: Building Independent Futures for Girls</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Skills Training for Girls at Holistic Foster Care Foundation Lahore" src="images/post-5.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Post Item Start -->
+<div class="post-item wow fadeInUp" data-wow-delay="1s">
+<!-- Post Item Header Start -->
+<div class="post-item-header">
+<!-- Post Item Tag Start -->
+<div class="post-item-meta">
+<ul>
+<li> Aug, 2023</li>
+</ul>
+</div>
+<!-- Post Item Tag End -->
+<!-- Post Item Content Start -->
+<div class="post-item-content">
+<h2>
+<a href="blog-single.html">Healthcare Initiative: Regular Check-ups and Nutrition Programs</a>
+</h2>
+</div>
+<!-- Post Item Content End -->
+</div>
+<!-- Post Item Header End -->
+<!-- Post Featured Image Start-->
+<div class="post-featured-image">
+<a data-cursor-text="View" href="blog-single.html">
+<figure class="image-anime">
+<img alt="Healthcare and Nutrition Program at Holistic Foster Care Foundation" src="images/post-6.jpg"/>
+</figure>
+</a>
+</div>
+<!-- Post Featured Image End -->
+<!-- Blog Item Button Start -->
+<div class="blog-item-btn">
+<a class="readmore-btn" href="blog-single.html">read more</a>
+</div>
+<!-- Blog Item Button End -->
+</div>
+<!-- Post Item End -->
+</div>
+<div class="col-lg-12">
+<!-- Page Pagination Start -->
+<div class="page-pagination wow fadeInUp" data-wow-delay="1.2s">
+<ul class="pagination">
+<li>
+<a href="#"><i class="fa-solid fa-angle-left"></i></a>
+</li>
+<li class="active"><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li>
+<a href="#"><i class="fa-solid fa-angle-right"></i></a>
+</li>
+</ul>
+</div>
+<!-- Page Pagination End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Page Blog End -->
+<!-- Main Footer Section Start -->
+
+<!-- Main Footer Section End -->
+<!-- Jquery Library File -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap js file -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Validator js file -->
+<script src="js/validator.min.js"></script>
+<!-- SlickNav js file -->
+<script src="js/jquery.slicknav.js"></script>
+<!-- Swiper js file -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- Counter js file -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<!-- Isotop js file -->
+<script src="js/isotope.min.js"></script>
+<!-- Magnific js file -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- SmoothScroll -->
+<script src="js/SmoothScroll.js"></script>
+<!-- Parallax js -->
+<script src="js/parallaxie.js"></script>
+<!-- MagicCursor js file -->
+<script src="js/gsap.min.js"></script>
+<script src="js/magiccursor.js"></script>
+<!-- Text Effect js file -->
+<script src="js/SplitText.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<!-- YTPlayer js File -->
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<!-- Wow js file -->
+<script src="js/wow.min.js"></script>
+<!-- Main Custom js file -->
+<script src="js/function.js"></script>
+
+<!-- Main Footer Section Start -->
+<footer class="main-footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<!-- Main Footer Box Start -->
+<div class="main-footer-box">
+<!-- Footer About Start -->
+<div class="footer-about">
+<!-- Footer Logo Start -->
+<div class="footer-logo">
+<strong style="color: white; font-size: 24px;">Holistic Foster Care Foundation</strong>
+</div>
+<!-- Footer Logo End -->
+<!-- Footer Contact Detail Start -->
+<div class="footer-contact-detail">
+<div class="footer-contact-item">
+<p>Contact our support team</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+<div class="footer-contact-item">
+<p>Need information or support?</p>
+<h3>
+<a href="mailto:info@holisticfostercare.org">info@holisticfostercare.org</a>
+</h3>
+</div>
+</div>
+<!-- Footer Contact Detail End -->
+<!-- Footer Social Links Start -->
+<div class="footer-social-links">
+<h3>Follow us</h3>
+<ul>
+<li>
+<a aria-label="Pinterest" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+</li>
+<li>
+<a aria-label="Twitter" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+</li>
+<li>
+<a aria-label="Facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+</li>
+<li>
+<a aria-label="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+</div>
+<!-- Footer Social Links End -->
+</div>
+<!-- Footer About End -->
+<!-- Footer Links Box Start -->
+<div class="footer-links-box">
+<!-- Newsletter Form Start -->
+<div class="newsletter-form">
+<form action="#" id="newsletterForm" method="POST">
+<div class="form-group">
+<input class="form-control" id="mail" name="email" placeholder="Subscribe to our newsletter" required="" type="email"/>
+<button aria-label="Submit" class="newsletter-btn" type="submit">
+<i class="fa-regular fa-paper-plane"></i>
+</button>
+</div>
+</form>
+</div>
+<!-- Newsletter Form End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="team.html">Our Team</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links footer-service-links">
+<h3>Our Programs</h3>
+<ul>
+<li><a href="services.html">Education Support</a></li>
+<li><a href="services.html">Healthcare &amp; Nutrition</a></li>
+<li><a href="services.html">Emotional Well-being</a></li>
+<li><a href="services.html">Skill Development</a></li>
+<li><a href="donation.html">Sponsor a Girl</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Resources</h3>
+<ul>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="faqs.html">FAQs</a></li>
+<li><a href="testimonials.html">Testimonials</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+</div>
+<!-- Footer Links Box End -->
+</div>
+<!-- Main Footer Box End -->
+</div>
+</div>
+</div>
+<!-- Footer Copyright Start -->
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<!-- Copyright Text Start -->
+<div class="copyright-text">
+<p>Copyright © 2023 Holistic Foster Care Foundation. All Rights Reserved. <br/>
+<small>6F-2 Model Town Link Road, Lahore, 54600, Pakistan</small>
+</p><b style="color: white;"><a href="https://wa.me/923478080268/" style="color: white;" target="_blank">Made With ♥ By Sayf</a></b>
+</div>
+<!-- Copyright Text End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Copyright End -->
+</footer>
+</body>
+</html>
