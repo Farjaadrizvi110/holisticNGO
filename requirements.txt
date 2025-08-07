@@ -1,0 +1,58 @@
+Django==4.2.7
+django-froala-editor
+whitenoise
+django-taggit
+
+python manage.py runserver
+
+Zurwa Qaiser
+
+
+<!-- <div class="our-features-item">
+Our Features Image Start -->
+<div class="our-features-image">
+<figure class="image-anime reveal" style="height: 580px;">
+<img alt="Fazeelat Qaiser - Teacher at Holistic Foster Care Foundation" src="https://i.postimg.cc/GhfPryZf/Whats-App-Image-2025-04-14-at-4-57-13-PM.jpg"/>
+</figure>
+</div>
+<!-- Our Features Image End -->
+<!-- Our Features Content Start -->
+<div class="our-features-content">
+<div class="our-features-body">
+<h2>Inspiring Young Minds</h2>
+<h3>Zurwa Qaiser</h3>
+<p>
+                 Zurwa, a passionate volunteer at Holistic Foster Care Foundation (HFCF), champions gender equality by empowering young girls to overcome challenges and reach their full potential. She is dedicated to helping them develop confidence and dignity. Separately, Ahmad Raza is noted for driving financial excellence at HFCF.
+                </p>
+</div>
+<div class="icon-box">
+<img alt="Teacher icon" src="{% static 'images/icon-our-features-3.svg' %}"/>
+</div>
+
+</div>
+
+
+<!-- Our Features Content End -->
+</div>
+
+style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;"
+
+
+
+<ul>
+<li>
+<a aria-label="WhatsApp" href="https://whatsapp.com/channel/0029VbAf5g0JUM2Ww4vtzs1c" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</li>
+<li>
+<a aria-label="TikTok" href="https://www.tiktok.com/@batoolbibi103?_t=ZN-8wrdj5ILQwA&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</li>
+<li>
+<a aria-label="Facebook" href="https://www.facebook.com/share/1Bbqc1KgC6/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+</li>
+<li>
+<a aria-label="Instagram" href="https://www.instagram.com/holisticfostercarefoundation?igsh=MTk3ZW14NWxsejZs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+
+logo
+https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png

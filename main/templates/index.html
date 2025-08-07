@@ -115,68 +115,10 @@
     src="https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png"
     alt="Holistic Foster Care Foundation Logo"
     class="brand-logo img-fluid"
+    style="height: 50px; width: auto; max-width: 60px; object-fit: contain;"
   >
-  <span class="brand-name">Holistic Foster Care Foundation</span>
+  <span class="brand-name">HFC Foundation</span>
 </a>
-<style>
-  /* Logo image responsiveness and scaling */
-.brand-logo {
-  max-height: 50px;
-  width: auto;
-  transition: transform 0.3s ease-in-out;
-}
-
-@media (min-width: 1200px) {
-  .brand-logo {
-    max-height: 60px;
-  }
-}
-
-@media (min-width: 1600px) {
-  .brand-logo {
-    max-height: 70px;
-  }
-}
-
-/* Brand text styling */
-.brand-name {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: white;
-  transition: color 0.3s ease, font-size 0.3s ease;
-  white-space: nowrap;
-}
-
-/* Hover effect for better interactivity */
-.navbar-brand:hover .brand-logo {
-  transform: scale(1.05);
-}
-
-.navbar-brand:hover .brand-name {
-  color: #f0f0f0;
-}
-
-/* TV and ultra-wide displays: increase branding size */
-@media (min-width: 1920px) {
-  .brand-name {
-    font-size: 1.1rem;
-  }
-  .brand-logo {
-    max-height: 80px;
-  }
-}
-
-/* Very small devices (phones in portrait) */
-@media (max-width: 576px) {
-  .brand-name {
-    font-size: 0.9rem;
-  }
-  .brand-logo {
-    max-height: 40px;
-  }
-}
-
-</style>
             <!-- Logo End -->
 
             <!-- Main Menu Start -->
@@ -304,7 +246,7 @@
               <!-- About Image 1 Start -->
               <div class="about-img-1">
                 <figure class="image-anime">
-                  <img src="https://images.piclumen.com/normal/20250418/02/f6ef2e24703a4a678959a3afb688e391.webp" alt="Holistic Foster Care Foundation girls learning" />
+                  <img src="{% static 'images/footer1.jpeg' %}" alt="Holistic Foster Care Foundation girls learning" />
                 </figure>
               </div>
               <!-- About Image 1 End -->
@@ -312,17 +254,12 @@
               <!-- About Image 2 Start -->
               <div class="about-img-2">
                 <figure class="image-anime">
-                  <img src="https://images.piclumen.com/normal/20250418/02/845369abcd57408cbeb1d63e64580c64.webp" alt="Holistic Foster Care Foundation facility in Lahore" />
+                  <img src="{% static 'images/header1.jpeg' %}" alt="Holistic Foster Care Foundation facility in Lahore" />
                 </figure>
               </div>
               <!-- About Image 2 End -->
 
               <!-- Need Fund Box Start -->
-              <div class="need-fund-box">
-                <img src="{% static 'images/icon-funded-dollar.svg' %}" alt="Funding icon" />
-                <p>Supporting <span class="counter"></span> girls in Lahore</p>
-              </div>
-              <!-- Need Fund Box End -->
             </div>
             <!-- About Us Images End -->
           </div>
@@ -350,7 +287,7 @@
                   <!-- About Support Box Start -->
                   <div class="about-support-box wow fadeInUp" data-wow-delay="0.4s">
                     <div class="icon-box">
-                      <img src="{% static 'images/icon-about-support.svg' %}" alt="Support icon" />
+                      <img src="{% static 'images/logo.jpg' %}" alt="Holistic Foster Care Foundation logo" />
                     </div>
                     <!-- About Support Content Start -->
                     <div class="about-support-content">
@@ -569,7 +506,7 @@
             <!-- What We Do Image 1 Start -->
             <div class="what-we-do-img-1">
               <figure class="image-anime reveal">
-                <img src="https://thumbs.dreamstime.com/b/portrait-happy-smiling-indian-school-girl-child-long-hair-beautiful-eyes-wearing-traditional-dress-costume-holding-280609927.jpg" alt="Girls at Holistic Foster Care Foundation learning" />
+                <img src="{% static 'images/main.jpg' %}" alt="Girls at Holistic Foster Care Foundation learning" />
               </figure>
             </div>
             <!-- What We Do Image 1 End -->
@@ -577,14 +514,14 @@
             <!-- What We Do Image 2 Start -->
             <div class="what-we-do-img-2">
               <figure class="image-anime">
-                <img src="https://z-p4-instagram.fkhi3-2.fna.fbcdn.net/v/t39.808-6/486528540_1087936460043520_89788157088444272_n.jpg?stp=c0.0.1080.1079a_dst-jpg_e35_tt6&cb=a688f7-fa102a98&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjEwODB4MTA4MC5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=z-p4-instagram.fkhi3-2.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2QGhMFmVauEau5R0DvAHx4u7xq57zOWEaLaeFHxAUIjZcK7fSPPoE4ai78prF-ZbyVo&_nc_ohc=D5TyveGgRmkQ7kNvwFN8qA_&_nc_gid=NDy0c3OuTOd6kqYggGoCbg&edm=ALQROFkAAAAA&ccb=7-5&ig_cache_key=MzU5NjEzMDE2MjU1NTkzMDE3Mw%3D%3D.3-ccb7-5-cba688f7-fa102a98&oh=00_AfHF7GIiOgL8X--mZoO_DRD8sBjRF4HTdllFuffWrgek5A&oe=68071F8A&_nc_sid=fc8dfb" alt="Holistic Foster Care Foundation facility in Lahore" />
+                <img src="{% static 'images/mainsub.jpg' %}" alt="Holistic Foster Care Foundation facility in Lahore" />
               </figure>
             </div>
             <!-- What We Do Image 2 End -->
 
             <!-- Donate Now Box Start -->
             <div class="donate-now-box">
-              <a href="{% url "donation" %}"><img src="{% static 'images/icon-donate-now.svg' %}" alt="Donation icon" />donate now</a>
+              <a href="{% url "donation" %}"><img src="{% static 'images/logo.jpg' %}" alt="Donation icon" width="40" height="40" style="margin-right: 8px; vertical-align: middle; border-radius: 4px; object-fit: contain;"/>donate now</a>
             </div>
             <!-- Donate Now Box End -->
           </div>
@@ -645,7 +582,7 @@
             <div class="causes-item wow fadeInUp" data-wow-delay="0.2s">
               <div class="causes-image">
                 <figure class="image-anime">
-                  <img src="https://media.licdn.com/dms/image/v2/C511BAQEqlJFNsmOMqA/company-background_10000/company-background_10000/0/1584231221478/ghaliya_s_montessori_house_for_autism_cover?e=2147483647&v=beta&t=e6icZjnlK95J6qQ5wXSXkTm19RQysAALXRQazEJ5pkk" alt="Healthcare and Nutrition for Orphaned Girls" />
+                  <img src="{% static 'images/healthcare.jpg' %}" alt="Healthcare and Nutrition for Orphaned Girls" />
                 </figure>
               </div>
               <div class="causes-body">
@@ -669,7 +606,7 @@
             <div class="causes-item wow fadeInUp" data-wow-delay="0.4s">
               <div class="causes-image">
                 <figure class="image-anime">
-                  <img src="https://prideschools.edu.pk/images/montessori-trainings/IMG_5871.jpg" alt="Skill Development for Girls in Lahore" />
+                  <img src="{% static 'images/growth.jpg' %}" alt="Skill Development for Girls in Lahore" />
                 </figure>
               </div>
               <div class="causes-body">
@@ -701,12 +638,11 @@
             <div class="why-choose-images">
               <div class="why-choose-image-1">
                 <figure class="image-anime">
-                  <img src="https://www.pakistanmontessoriassociation.org/wp-content/uploads/2021/04/IMG-0520-875x1024.jpg" alt="Holistic Foster Care Foundation in Lahore" />
-                </figure>
+                  <img src="{% static 'images/mainsub2.jpg' %}" alt="Holistic Foster Care Foundation in Lahore" />                </figure>
               </div>
               <div class="why-choose-image-2">
                 <figure class="image-anime">
-                  <img src="https://mixmax.pk/cdn/shop/articles/frocks-for-baby-girls-in-pakistan-400425.jpg?v=1719031856" alt="Orphaned Girls Education in Pakistan" />
+                  <img src="{% static 'images/mainsub3.jpg' %}" alt="Orphaned Girls Education in Pakistan" />
                 </figure>
               </div>
             </div>
@@ -744,9 +680,17 @@
               <div class="why-choose-counters">
                 <!-- Why Choose Counters Item Start -->
                 <div class="why-choose-counter-item">
-                  <h2><span class="counter"></span>+</h2>
+                  <h2><span class="counter"> 24</span>+</h2>
                   <p>Girls supported</p>
                 </div>
+                <!-- Why Choose Counters Item End -->
+
+                <!-- Why Choose Counters Item Start -->
+                <!-- <div class="why-choose-counter-item">
+
+                  <h2><span class="counter"></span>+24</h2>
+                  <p>Girls supported</p>
+                </div> -->
                 <!-- Why Choose Counters Item End -->
 
                 <!-- Why Choose Counters Item Start -->
@@ -825,7 +769,7 @@
               <div class="program-image">
                 <a href="{% url "services" %}" data-cursor-text="View">
                   <figure class="image-anime">
-                    <img src="https://static.zawya.com/view/acePublic/alias/contentid/ZDMzMDJmMDYtNDczMy00/3/1159701440.webp" alt="Healthcare and Nutrition Support for Girls in Lahore" />
+                    <img src="{% static 'images/healthcare.jpg' %}" alt="Healthcare and Nutrition Support for Girls in Lahore" />
                   </figure>
                 </a>
               </div>
@@ -941,7 +885,7 @@
                 <!-- Our Features Image Start -->
                 <div class="our-features-image">
                   <figure class="image-anime reveal">
-                    <img src="https://scontent.fkhi3-2.fna.fbcdn.net/v/t39.808-6/484826319_1046902880800085_1005818644848201457_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGv3x9_4RJfjqimK3m6l8SUYmPPcIhEAm5iY89wiEQCblI36j7YBzpc61anaLKMB6ncL8edESy5qtF4v9itAjiO&_nc_ohc=-KGjoVMtEMMQ7kNvwHm5lz6&_nc_oc=Adnqy-lY25VIZn6uZViHyVIKFkPm0dO3dlAGaMZ3o8m1k0QC59m9lXVqLYTPsgLOLCU&_nc_zt=23&_nc_ht=scontent.fkhi3-2.fna&_nc_gid=kKs9PIXzPfbz7JfAwbZdlA&oh=00_AfHETe_yZo2m60oC0mGT7d61fwGacDNekFP2GrIFZB1nvQ&oe=68072AEC" alt="Healthcare support for girls at Holistic Foster Care Foundation" />
+                    <img src="{% static 'images/growth.jpg' %}" alt="Healthcare support for girls at Holistic Foster Care Foundation" />
                   </figure>
                 </div>
                 <!-- Our Features Image End -->
@@ -969,7 +913,7 @@
                 <!-- Our Features Image Start -->
                 <div class="our-features-image">
                   <figure class="image-anime reveal">
-                    <img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t39.808-6/485109994_1046902894133417_8162720903670171495_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEmLDFuWw7hmHYt12kpbauODuDB40GVf8EO4MHjQZV_wdDk2Zcsj2_3MHbFOEW2nOKDggHCTLOW5ftyseudbXLf&_nc_ohc=DPfgty-VaAAQ7kNvwGmrnQQ&_nc_oc=AdmMvtcIAaccE9PWGGtT4KtL0g2v-AvWk5SgJaBIsqZotvkE6w3mKRrbgNvGpWmry8I&_nc_zt=23&_nc_ht=scontent.fkhi3-1.fna&_nc_gid=1K3SOzq6-0GaCLb-z71A0g&oh=00_AfFg-K35Q6kR1cXPPTjWQAWv71m0NKw7IPsFkS9eqeRjkQ&oe=68072C18" alt="Education for orphaned girls in Lahore" />
+                    <img src="{% static 'images/footer2.jpg' %}" alt="Education for orphaned girls in Lahore" />
                   </figure>
                 </div>
                 <!-- Our Features Image End -->
@@ -997,7 +941,7 @@
                 <!-- Our Features Image Start -->
                 <div class="our-features-image">
                   <figure class="image-anime reveal">
-                    <img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t39.808-6/485778646_1046902897466750_2291141379201105170_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG8v0otvTQjWToMXRI9y39XW9LqSt6ohrNb0upK3qiGs6xGoBXZ2bNL2KgxKFZH8gIdmHU7ixLY7bj6JOHJPDg0&_nc_ohc=2lDaIPEifEMQ7kNvwHthHO1&_nc_oc=Adk8i3r8jI96x8kJLwTYU4yhmriQQE-TiAHKwBHjvSM0aqIfW4K2FwkZetLjzzkzjSY&_nc_zt=23&_nc_ht=scontent.fkhi3-1.fna&_nc_gid=-gV47oFJxEH13FaW28OxCw&oh=00_AfENxixNhmTBkH_fzT-SnTTobsItsaZJR3B4hshZp_MBIQ&oe=680726AB" alt="Nutritional support for underprivileged girls" />
+                    <img src="{% static 'images/header1.jpg' %}" alt="Nutritional support for underprivileged girls" />
                   </figure>
                 </div>
                 <!-- Our Features Image End -->
@@ -1159,7 +1103,7 @@
             <!-- How It Work Image Start -->
             <div class="how-it-work-image">
               <figure class="image-anime reveal">
-                <img src="https://scontent.fkhi3-2.fna.fbcdn.net/v/t39.808-6/491811038_1067443385412701_8060996732660790681_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGRFRQpqfZMMZXrocwfzqYPmLE-MpN5HkOYsT4yk3keQxI_uCa223T7x6MpKjcBcgpKi42hAy-D-4kg5-cCl76i&_nc_ohc=Hl02Y-j8eAkQ7kNvwHSH4gO&_nc_oc=AdncktoFh9BCYb5rXSgHRLnbbOrVSTzIRPZXHSFFNvWpju7puktMgi-W-YBDnzLMDh0&_nc_zt=23&_nc_ht=scontent.fkhi3-2.fna&_nc_gid=9K73Mc_GN6uLlQrw3XXMRw&oh=00_AfF96Yj8MAPdalKRkorXAbDw9ukAW-nwpwQoO7q_jfCXHw&oe=680720E6" alt="Quality Education for Orphaned Girls in Lahore" />
+                <img src="{% static 'images/qualityedu.jpg' %}" alt="Quality Education for Orphaned Girls in Lahore" />
               </figure>
             </div>
             <!-- How It Work Image End -->
@@ -1186,7 +1130,7 @@
             <!-- How It Work Image Start -->
             <div class="how-it-work-image">
               <figure class="image-anime reveal">
-                <img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t39.808-6/491577872_1067443412079365_13659627054167879_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHaGXBUOrKBTvzU_KEsxj11Qsb238hO6-FCxvbfyE7r4ZkF_KETpRuTHoZJ-PS018fXoyiZcJidYXIE6OVhjYaT&_nc_ohc=mJFusyy8-wUQ7kNvwFBP_hu&_nc_oc=AdktGxzjczCVZtIWIlrfvluBgh46p2DzwY0GTPI701IfT8vhEYH2sFNli5E5ZxzEeWs&_nc_zt=23&_nc_ht=scontent.fkhi3-1.fna&_nc_gid=T8dfexTXTh3VKgOYZwasWg&oh=00_AfHu6lQj9XODQrnS44VDSOzG8PNyZCyO4fStwol8lCfHGw&oe=6807286E" alt="Healthcare and Nutrition for Foster Girls in Pakistan" />
+                <img src="{% static 'images/skill-development.jpg' %}" alt="Healthcare and Nutrition for Foster Girls in Pakistan" />
               </figure>
             </div>
             <!-- How It Work Image End -->
@@ -1213,7 +1157,7 @@
             <!-- How It Work Image Start -->
             <div class="how-it-work-image">
               <figure class="image-anime reveal">
-                <img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t39.808-6/491001752_1067443478746025_3159146596490115561_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEZ4zAt006hVYPIrZUNcgAR0cvArt1g5H_Ry8Cu3WDkf4bp72RrKuq-cEaA2HbbFf3GyRkXKAtJCguVdE7x4Lu_&_nc_ohc=kzNx5WptursQ7kNvwGTP-NY&_nc_oc=Adn-fQXg00N6QZfpQRDaLFgetBQY07GIV8DgyODQsgRfZK2Vpg3t_aWZADUB8Ty6QDs&_nc_zt=23&_nc_ht=scontent.fkhi3-1.fna&_nc_gid=zUO7YroCSlKxC9kUjNQ1GQ&oh=00_AfFYYScEwii4p4vqibnCypOLTrOBCuNghApnwskCma5mMg&oe=680748D0" alt="Emotional Support for Underprivileged Girls in Lahore" />
+                <img src="{% static 'images/underpervilage.jpg' %}" alt="Emotional Support for Underprivileged Girls in Lahore" />
               </figure>
             </div>
             <!-- How It Work Image End -->
@@ -1240,7 +1184,7 @@
             <!-- How It Work Image Start -->
             <div class="how-it-work-image">
               <figure class="image-anime reveal">
-                <img src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t39.808-6/491202656_1067443458746027_5225811267714265169_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEExncz7owAioOkRsB4iLCLSCYkp1X8pt1IJiSnVfym3SDxJt9EpaJiGitfFAUrWcivsFa7ZvUv5N7ydNquhbWr&_nc_ohc=WBbgbX86bJMQ7kNvwFXAk7x&_nc_oc=AdkmBKJiXIVEWTbR8ySkOeuDdYtKQEnDhYlWbeavlywPNGsYGuB01WbbClrcLOWST00&_nc_zt=23&_nc_ht=scontent.fkhi3-1.fna&_nc_gid=WpPRZb5mQQWj02a6Yz6K8g&oh=00_AfGGBP892ng2S5TACZuSwKkH7mKSRaxG4X4AdXLq_KRlJA&oe=680720D0" alt="Skills Training for Girls in Holistic Foster Care Foundation" />
+                <img src="{% static 'images/skill-development.jpg' %}" alt="Skills Training for Girls in Holistic Foster Care Foundation" />
               </figure>
             </div>
             <!-- How It Work Image End -->
@@ -1289,7 +1233,7 @@
         <div class="testimonials-image">
           <div class="testimonials-img">
             <figure class="image-anime reveal">
-              <img src="https://scontent.fkhi3-2.fna.fbcdn.net/v/t39.808-6/491213256_1067443492079357_2974982531383465145_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH4vhbH7CG4R9wx4u-5Sdsdjk_Xl7cMeHSOT9eXtwx4dHJiBd6vmO_11TISZPaTGaUwkmwOi08InEk9AeK00EDi&_nc_ohc=jX35ZgD5XjwQ7kNvwEczybr&_nc_oc=AdlcrRtEgzgdXNwXsYizBjoaOjqO94nghevNZsa7UMpTjR7aDcK1KJuD1Rk27ZoPt78&_nc_zt=23&_nc_ht=scontent.fkhi3-2.fna&_nc_gid=oow4iB0bMBrVd9p6xGYakg&oh=00_AfE4yzcXYneYz81O8SHRQxbQLQBy_QznLniVK-pZ__2VIQ&oe=680742AA" alt="Holistic Foster Care Foundation Impact in Lahore" />
+              <img src="{% static 'images/final-test.jpg' %}" alt="Holistic Foster Care Foundation Impact in Lahore" />
             </figure>
           </div>
 
@@ -1299,10 +1243,12 @@
             </a>
           </div>
 
-          <div class="client-review-box">
-            <h2><span class="counter"></span></h2>
+          <!-- <div class="client-review-box">
+            <h2><span class="counter"> 
+              
+            </span> 24</h2>
             <p>girls supported</p>
-          </div>
+          </div> -->
         </div>
         <!-- Testimonials Image End -->
       </div>
@@ -1557,9 +1503,9 @@
 
             <!-- Footer Contact Detail Start -->
             <div class="footer-contact-detail">
-              <div class="footer-contact-item">
+          <div class="footer-contact-item">
                 <p>Contact our support team</p>
-                <h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+                <h3><a href="tel:+923010302075">+92 301 0302075</a></h3>
               </div>
 
               <div class="footer-contact-item">
@@ -1574,20 +1520,20 @@
             <!-- Footer Social Links Start -->
             <div class="footer-social-links">
               <h3>Follow us</h3>
-              <ul>
-                <li>
-                  <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-                </li>
-                <li>
-                  <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-              </ul>
+           <ul>
+<li>
+<a aria-label="WhatsApp" href="https://whatsapp.com/channel/0029VbAf5g0JUM2Ww4vtzs1c" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</li>
+<li>
+<a aria-label="TikTok" href="https://www.tiktok.com/@batoolbibi103?_t=ZN-8wrdj5ILQwA&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</li>
+<li>
+<a aria-label="Facebook" href="https://www.facebook.com/share/1Bbqc1KgC6/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+</li>
+<li>
+<a aria-label="Instagram" href="https://www.instagram.com/holisticfostercarefoundation?igsh=MTk3ZW14NWxsejZs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
             </div>
             <!-- Footer Social Links End -->
           </div>
@@ -1664,7 +1610,7 @@
           <div class="copyright-text">
             <p>Copyright © 2023 Holistic Foster Care Foundation. All Rights Reserved. <br>
               <small>6F-2 Model Town Link Road, Lahore, 54600, Pakistan</small>
-            </p><b style="color: white;"><a style="color: white;" href="https://wa.me/923478080268/" target="_blank">Made With ♥ By Sayf</a></b>
+            </p><b style="color: white;"><a href="https://wa.me/923010302075" target="_blank" style="color: white; text-decoration: none;">Design and Developed by Ray Design</a></b>
           </div>
           <!-- Copyright Text End -->
         </div>
