@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+<!-- Meta -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+<meta content="Hear the powerful stories of transformation from the girls, donors, and supporters of Holistic Foster Care Foundation. See the real impact of our mission." name="description"/>
+<meta content="Holistic Foster Care Foundation testimonials, charity impact stories, girls education success, donor experiences, nonprofit support stories" name="keywords"/>
+<meta content="Holistic Foster Care Foundation" name="author"/>
+<!-- Open Graph / Social Media Meta Tags -->
+<meta content="Testimonials - Holistic Foster Care Foundation" property="og:title"/>
+<meta content="Real stories of hope, transformation, and impact from our girls, donors, and supporters." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://holisticfostercare.org/testimonials.html" property="og:url"/>
+<meta content="images/holistic-foster-care-testimonials-og.jpg" property="og:image"/>
+<!-- Twitter Card data -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Testimonials - Holistic Foster Care Foundation" name="twitter:title"/>
+<meta content="Discover the profound impact of our foundation through powerful personal stories." name="twitter:description"/>
+<!-- Canonical URL -->
+<meta href="{% url "testimonials" %}" rel="canonical">
+<!-- Page Title -->
+<title>Testimonials - Holistic Foster Care Foundation</title>
+<!-- Favicon Icon -->
+<link href="{% static 'images/favicon.png' %}" rel="shortcut icon" type="image/x-icon"/>
+<!-- Google Fonts Css-->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Onest:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Bootstrap Css -->
+<link href="{% static 'css/bootstrap.min.css' %}" media="screen" rel="stylesheet"/>
+<!-- SlickNav Css -->
+<link href="{% static 'css/slicknav.min.css' %}" rel="stylesheet"/>
+<!-- Swiper Css -->
+<link href="{% static 'css/swiper-bundle.min.css' %}" rel="stylesheet"/>
+<!-- Font Awesome Icon Css-->
+<link href="{% static 'css/all.min.css' %}" media="screen" rel="stylesheet"/>
+<!-- Animated Css -->
+<link href="{% static 'css/animate.css' %}" rel="stylesheet"/>
+<!-- Magnific Popup Core Css File -->
+<link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet"/>
+<!-- Mouse Cursor Css File -->
+<link href="{% static 'css/mousecursor.css' %}" rel="stylesheet"/>
+<!-- Main Custom Css -->
+<link href="{% static 'css/custom.css' %}" media="screen" rel="stylesheet"/>
+</meta></head>
+<body>
+<!-- Preloader Start -->
+<div class="preloader">
+<div class="loading-container">
+<div class="loading"></div>
+<div id="loading-icon"><img alt="Holistic Foster Care Foundation loading" src="https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png"/></div>
+</div>
+</div>
+<!-- Preloader End -->
+<!-- Header Start -->
+<header class="main-header">
+<div class="header-sticky">
+<nav class="navbar navbar-expand-lg bg-dark">
+<div class="container">
+<!-- Logo Start -->
+<!-- Logo Start -->
+<a
+  aria-label="Holistic Foster Care Foundation homepage"
+  class="navbar-brand d-flex align-items-center gap-2"
+  href="{% url 'home' %}"
+  style="color: white; text-decoration: none;"
+>
+  <img
+    src="https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png"
+    alt="Holistic Foster Care Foundation Logo"
+    class="brand-logo img-fluid"
+  >
+  <span class="brand-name">Holistic Foster Care Foundation</span>
+</a>
+<style>
+  /* Logo image responsiveness and scaling */
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 1200px) {
+  .brand-logo {
+    max-height: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .brand-logo {
+    max-height: 70px;
+  }
+}
+
+/* Brand text styling */
+.brand-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  white-space: nowrap;
+}
+
+/* Hover effect for better interactivity */
+.navbar-brand:hover .brand-logo {
+  transform: scale(1.05);
+}
+
+.navbar-brand:hover .brand-name {
+  color: #f0f0f0;
+}
+
+/* TV and ultra-wide displays: increase branding size */
+@media (min-width: 1920px) {
+  .brand-name {
+    font-size: 1.1rem;
+  }
+  .brand-logo {
+    max-height: 80px;
+  }
+}
+
+/* Very small devices (phones in portrait) */
+@media (max-width: 576px) {
+  .brand-name {
+    font-size: 0.9rem;
+  }
+  .brand-logo {
+    max-height: 40px;
+  }
+}
+
+</style>
+<!-- Logo End -->
+<!-- Main Menu Start -->
+<div class="collapse navbar-collapse main-menu">
+<div class="nav-menu-wrapper">
+<ul class="navbar-nav mr-auto" id="menu">
+<li class="nav-item">
+<a class="nav-link" href="{% url "home" %}">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "about" %}">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "services" %}">Our Programs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "team" %}">Our Team</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "testimonials" %}">Testimonials</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "blog" %}">News &amp; Updates</a>
+</li>
+<li class="nav-item">
+                    <a href="{% url "donation" %}" class="donate-btn">Support Us</a>
+                  </li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "contact" %}">Contact Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "faqs" %}">FAQs</a>
+</li>
+</ul>
+</div>
+<!-- Contact Now Box Start -->
+<div class="contact-now-box">
+<div class="icon-box">
+<img alt="Contact phone icon" src="{% static 'images/icon-phone.svg' %}"/>
+</div>
+<div class="contact-now-box-content">
+<p>Need help?</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+</div>
+<!-- Contact Now Box End -->
+</div>
+<!-- Main Menu End -->
+<div class="navbar-toggle"></div>
+</div>
+</nav>
+<div class="responsive-menu"></div>
+</div>
+</header>
+<!-- Header End -->
+<!-- Page Header Start -->
+<div class="page-header parallaxie">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<!-- Page Header Box Start -->
+<div class="page-header-box">
+<h1 class="text-anime-style-2" data-cursor="-opaque">
+                Testimonials
+              </h1>
+<nav class="wow fadeInUp">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="{% url "home" %}">home</a></li>
+<li aria-current="page" class="breadcrumb-item active">
+                    testimonials
+                  </li>
+</ol>
+</nav>
+</div>
+<!-- Page Header Box End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Page Header End -->
+<!-- Page Testimonials Start -->
+<div class="page-testimonials">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="Volunteer at Holistic Foster Care Foundation" src="{% static 'images/author-1.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Dr. Abdul Rehman</h3>
+<p>Volunteer Doctor</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "Working with Holistic Foster Care Foundation has been a truly rewarding experience. Their comprehensive
+                  approach to girls' healthcare goes beyond basic treatment—they're creating a foundation for lifelong
+                  well-being. I've seen remarkable improvements in the physical and mental health of these young girls."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp" data-wow-delay="0.2s">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="Teacher at Holistic Foster Care Foundation" src="{% static 'images/author-2.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Tamkinat Qureshi</h3>
+<p>English Teacher</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "As an English teacher at HFCF, I've witnessed incredible transformation in our girls. What makes this
+                  place special is how it feels like a second home—not just for the girls, but for volunteers like me. The
+                  dedication of the team behind this foundation is truly inspiring, and I'm committed to being part of this
+                  mission for years to come."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp" data-wow-delay="0.4s">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="CEO of Holistic Foster Care Foundation" src="{% static 'images/author-3.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Nighat Yasmin</h3>
+<p>CEO &amp; Psychologist</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "The emotional journey these girls experience at Holistic Foster Care Foundation is remarkable. As both an educator
+                  and psychologist, I've designed wellbeing programs that address their unique psychological needs. Watching
+                  them develop resilience, confidence, and emotional intelligence is the most fulfilling aspect of our
+                  work."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp" data-wow-delay="0.6s">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="Administrator at Holistic Foster Care Foundation" src="{% static 'images/author-4.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Dania Tanveer</h3>
+<p>Administrator</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "Managing daily operations at HFCF has shown me the profound impact of creating structured, nurturing
+                  environments for these girls. With my background in Mass Communication, I've been able to help tell their
+                  stories and organize our programs effectively. Every day brings new challenges, but the girls' progress
+                  makes it all worthwhile."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp" data-wow-delay="0.8s">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="Volunteer Ambassador at Holistic Foster Care Foundation" src="{% static 'images/author-5.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Zurwa</h3>
+<p>Volunteer Ambassador</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "As a Literature student, I believe in the power of education to transform lives. Tutoring the girls at
+                  Holistic Foster Care Foundation has been incredibly rewarding—watching them grasp new concepts, develop critical
+                  thinking skills, and grow in confidence. Their determination to learn despite past challenges is truly
+                  inspiring."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+<div class="col-lg-6">
+<!-- Testimonial Item Start -->
+<div class="testimonial-item wow fadeInUp" data-wow-delay="1s">
+<!-- Testimonial Header Start -->
+<div class="testimonial-header">
+<!-- Author Info Start -->
+<div class="author-info">
+<!-- Author Image Start -->
+<div class="author-image" style="display:none;">
+<figure class="image-anime">
+<img alt="Social Worker at Holistic Foster Care Foundation" src="{% static 'images/author-6.jpg' %}"/>
+</figure>
+</div>
+<!-- Author Image End -->
+<!-- Author Content Start -->
+<div class="author-content">
+<h3>Hussain Suhail</h3>
+<p>Social Worker</p>
+</div>
+<!-- Author Content End -->
+</div>
+<!-- Author Info Author End -->
+<!-- Testimonial Rating Start -->
+<div class="testimonial-rating">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<!-- Testimonial Rating End -->
+</div>
+<!-- Testimonial Header End -->
+<!-- Testimonial Content Start -->
+<div class="testimonial-content">
+<p>
+                  "My vision for Holistic Foster Care Foundation is to build girls who can stand strong in society. As a national
+                  speaker and social worker, I've seen how proper support and education can transform lives. These girls are
+                  becoming independent, confident individuals who will not only support their families but contribute
+                  meaningfully to our community."
+                </p>
+</div>
+<!-- Testimonial Content End -->
+</div>
+<!-- Testimonial Item End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Page Testimonials End -->
+
+    <!-- Why Choose Us Section Start -->
+    <div class="why-choose-us">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <!-- Why Choose Images Start -->
+            <div class="why-choose-images">
+              <div class="why-choose-image-1">
+                <figure class="image-anime">
+                  <img src="{% static 'images/mainsub2.jpg' %}" alt="Holistic Foster Care Foundation in Lahore" />
+                </figure>
+              </div>
+              <div class="why-choose-image-2">
+                <figure class="image-anime">
+                  <img src="{% static 'images/mainsub3.jpg' %}" alt="Orphaned Girls Education in Pakistan" />
+                </figure>
+              </div>
+            </div>
+            <!-- Why Choose Images End -->
+          </div>
+
+          <div class="col-lg-6">
+            <!-- Why Choose Content Start -->
+            <div class="why-choose-content">
+              <!-- Section Title Start -->
+              <div class="section-title">
+                <h3 class="wow fadeInUp">Why Choose Us</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  A Holistic Approach to Foster Care
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Founded by Batool Bibi, a UK nurse with 20+ years of experience, our foundation goes beyond providing
+                  shelter to create a comprehensive well-being and educational center for orphaned girls in Lahore.
+                </p>
+              </div>
+              <!-- Section Title End -->
+
+              <!-- Why Choose List Start -->
+              <div class="why-choose-list wow fadeInUp" data-wow-delay="0.4s">
+                <ul>
+                  <li>Personalized care and attention for each girl</li>
+                  <li>Professional staff including teachers and psychologists</li>
+                  <li>Holistic development approach (mental, emotional, physical)</li>
+                  <li>Long-term support for independence and future success</li>
+                </ul>
+              </div>
+              <!-- Why Choose List End -->
+
+              <!-- Why Choose Counters Start -->
+              <div class="why-choose-counters">
+                <!-- Why Choose Counters Item Start -->
+                <div class="why-choose-counter-item">
+                  <h2><span class="counter"></span>+</h2>
+                  <p>Girls supported</p>
+                </div>
+                <!-- Why Choose Counters Item End -->
+
+                <!-- Why Choose Counters Item Start -->
+                <div class="why-choose-counter-item">
+                  <h2><span class="counter">20</span>+</h2>
+                  <p>Dedicated volunteers</p>
+                </div>
+                <!-- Why Choose Counters Item End -->
+
+                <!-- Why Choose Counters Item Start -->
+                <div class="why-choose-counter-item">
+                  <h2><span class="counter">4</span>+</h2>
+                  <p>Core programs</p>
+                </div>
+                <!-- Why Choose Counters Item End -->
+              </div>
+              <!-- Why Choose Counters End -->
+            </div>
+            <!-- Why Choose Content End -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Why Choose Us Section End -->
+<!-- Our Faqs Section Start -->
+<div class="our-faqs">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="faqs-content">
+<!-- Section Title Start -->
+<div class="section-title">
+<h3 class="wow fadeInUp">faq</h3>
+<h2 class="text-anime-style-2" data-cursor="-opaque">
+                Common questions about our foundation
+              </h2>
+</div>
+<!-- Section Title End -->
+<!-- FAQ Accordion Start -->
+<div class="faq-accordion" id="faqaccordion">
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp">
+<h2 class="accordion-header" id="heading1">
+<button aria-controls="collapse1" aria-expanded="true" class="accordion-button collapsed" data-bs-target="#collapse1" data-bs-toggle="collapse" type="button">
+                    What is the mission of Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading1" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse1">
+<div class="accordion-body">
+<p>
+                      Our mission is to provide a safe, nurturing home for  orphaned and underprivileged girls in
+                      Lahore, Pakistan. We focus on their holistic development through quality education, healthcare,
+                      emotional support, and skill development, empowering them to build independent and fulfilling
+                      futures.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+<h2 class="accordion-header" id="heading2">
+<button aria-controls="collapse2" aria-expanded="false" class="accordion-button" data-bs-target="#collapse2" data-bs-toggle="collapse" type="button">
+                    How can I support Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading2" class="accordion-collapse collapse show" data-bs-parent="#faqaccordion" id="collapse2">
+<div class="accordion-body">
+<p>
+                      You can support our foundation by making a donation, sponsoring a girl's education or healthcare,
+                      volunteering your time and skills, or helping spread awareness about our work. Every contribution,
+                      regardless of size, makes a meaningful difference in these girls' lives. Contact us directly to
+                      discuss how you can get involved.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+<h2 class="accordion-header" id="heading3">
+<button aria-controls="collapse3" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse3" data-bs-toggle="collapse" type="button">
+                    Where do your donations go?
+                  </button>
+</h2>
+<div aria-labelledby="heading3" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse3">
+<div class="accordion-body">
+<p>
+                      Your donations directly support our girls' well-being and development. Funds are used for daily
+                      operational costs, school fees and educational materials, nutritious meals and healthcare, staff
+                      salaries, and recreational activities. We maintain transparency in our financial operations and are
+                      committed to maximizing the impact of every contribution.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+<h2 class="accordion-header" id="heading4">
+<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+                    Who founded Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse4">
+<div class="accordion-body">
+<p>
+                      The foundation was established by Batool Bibi, a dedicated nurse with over 20 years of experience in
+                      the UK healthcare system. After witnessing the struggles of orphaned and underprivileged girls in
+                      Pakistan, she left her career abroad to create a comprehensive support system that addresses not
+                      just their basic needs, but their complete well-being and future prospects.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+<h2 class="accordion-header" id="heading5">
+<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
+                    How can I volunteer with Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse5">
+<div class="accordion-body">
+<p>
+                      We welcome volunteers with various skills and backgrounds. Whether you're a teacher, healthcare
+                      professional, artist, or simply passionate about helping, there are numerous ways to contribute.
+                      Contact us at +92 322 0711929 or visit our center at 6F-2 Model Town Link Road, Lahore to discuss
+                      volunteer opportunities that match your skills and availability.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+</div>
+<!-- FAQ Accordion End -->
+</div>
+</div>
+<div class="col-lg-6">
+<!-- Faqs Image Start -->
+<div class="faqs-image">
+<div class="faqs-img-1">
+<figure class="image-anime reveal">
+<img alt="Girls receiving education at Holistic Foster Care Foundation" src="{% static 'images/footer1.jpeg' %}"/>
+</figure>
+</div>
+<div class="faqs-img-2">
+<figure class="image-anime reveal">
+<img alt="Supportive environment at Holistic Foster Care Foundation in Lahore" src="https://i.postimg.cc/pdG6tTJX/SADSAD.jpg"/>
+</figure>
+</div>
+</div>
+<!-- Faqs Image End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Our Faqs Section End -->
+<!-- Main Footer Section Start -->
+
+<!-- Main Footer Section End -->
+<!-- Jquery Library File -->
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<!-- Bootstrap js file -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- Validator js file -->
+<script src="{% static 'js/validator.min.js' %}"></script>
+<!-- SlickNav js file -->
+<script src="{% static 'js/jquery.slicknav.js' %}"></script>
+<!-- Swiper js file -->
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<!-- Counter js file -->
+<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<!-- Isotop js file -->
+<script src="{% static 'js/isotope.min.js' %}"></script>
+<!-- Magnific js file -->
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<!-- SmoothScroll -->
+<script src="{% static 'js/SmoothScroll.js' %}"></script>
+<!-- Parallax js -->
+<script src="{% static 'js/parallaxie.js' %}"></script>
+<!-- MagicCursor js file -->
+<script src="{% static 'js/gsap.min.js' %}"></script>
+<script src="{% static 'js/magiccursor.js' %}"></script>
+<!-- Text Effect js file -->
+<script src="{% static 'js/SplitText.js' %}"></script>
+<script src="{% static 'js/ScrollTrigger.min.js' %}"></script>
+<!-- YTPlayer js File -->
+<script src="{% static 'js/jquery.mb.YTPlayer.min.js' %}"></script>
+<!-- Wow js file -->
+<script src="{% static 'js/wow.min.js' %}"></script>
+<!-- Main Custom js file -->
+<script src="{% static 'js/function.js' %}"></script>
+
+<!-- Main Footer Section Start -->
+<footer class="main-footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<!-- Main Footer Box Start -->
+<div class="main-footer-box">
+<!-- Footer About Start -->
+<div class="footer-about">
+<!-- Footer Logo Start -->
+<div class="footer-logo">
+<strong style="color: white; font-size: 24px;">Holistic Foster Care Foundation</strong>
+</div>
+<!-- Footer Logo End -->
+<!-- Footer Contact Detail Start -->
+<div class="footer-contact-detail">
+<div class="footer-contact-item">
+<p>Contact our support team</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+<div class="footer-contact-item">
+<p>Need information or support?</p>
+<h3>
+<a href="mailto:info@holisticfostercare.org">info@holisticfostercare.org</a>
+</h3>
+</div>
+</div>
+<!-- Footer Contact Detail End -->
+<!-- Footer Social Links Start -->
+<div class="footer-social-links">
+<h3>Follow us</h3>
+<ul>
+<li>
+<a aria-label="WhatsApp" href="https://whatsapp.com/channel/0029VbAf5g0JUM2Ww4vtzs1c" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</li>
+<li>
+<a aria-label="TikTok" href="https://www.tiktok.com/@batoolbibi103?_t=ZN-8wrdj5ILQwA&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</li>
+<li>
+<a aria-label="Facebook" href="https://www.facebook.com/share/1Bbqc1KgC6/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+</li>
+<li>
+<a aria-label="Instagram" href="https://www.instagram.com/holisticfostercarefoundation?igsh=MTk3ZW14NWxsejZs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+</div>
+<!-- Footer Social Links End -->
+</div>
+<!-- Footer About End -->
+<!-- Footer Links Box Start -->
+<div class="footer-links-box">
+<!-- Newsletter Form Start -->
+<div class="newsletter-form">
+<form action="#" id="newsletterForm" method="POST">
+<div class="form-group">
+<input class="form-control" id="mail" name="email" placeholder="Subscribe to our newsletter" required="" type="email"/>
+<button aria-label="Submit" class="newsletter-btn" type="submit">
+<i class="fa-regular fa-paper-plane"></i>
+</button>
+</div>
+</form>
+</div>
+<!-- Newsletter Form End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="{% url "home" %}">Home</a></li>
+<li><a href="{% url "about" %}">About Us</a></li>
+<li><a href="{% url "services" %}">Services</a></li>
+<li><a href="{% url "team" %}">Our Team</a></li>
+<li><a href="{% url "contact" %}">Contact</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links footer-service-links">
+<h3>Our Programs</h3>
+<ul>
+<li><a href="{% url "services" %}">Education Support</a></li>
+<li><a href="{% url "services" %}">Healthcare &amp; Nutrition</a></li>
+<li><a href="{% url "services" %}">Emotional Well-being</a></li>
+<li><a href="{% url "services" %}">Skill Development</a></li>
+<li><a href="{% url "donation" %}">Sponsor a Girl</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Resources</h3>
+<ul>
+<li><a href="{% url "blog" %}">Blog</a></li>
+<li><a href="{% url "faqs" %}">FAQs</a></li>
+<li><a href="{% url "testimonials" %}">Testimonials</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+</div>
+<!-- Footer Links Box End -->
+</div>
+<!-- Main Footer Box End -->
+</div>
+</div>
+</div>
+<!-- Footer Copyright Start -->
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<!-- Copyright Text Start -->
+<div class="copyright-text">
+<p>Copyright © 2023 Holistic Foster Care Foundation. All Rights Reserved. <br/>
+<small>6F-2 Model Town Link Road, Lahore, 54600, Pakistan</small>
+</p><b style="color: white;"><a href="https://wa.me/923010302075" target="_blank" style="color: white; text-decoration: none;">Design and Developed by Ray Design</a></b>
+</div>
+<!-- Copyright Text End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Copyright End -->
+</footer>
+</body>
+</html>

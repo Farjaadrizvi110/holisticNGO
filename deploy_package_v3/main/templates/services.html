@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+<!-- Meta -->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport"/>
+<meta content="Explore our comprehensive programs supporting orphaned and underprivileged girls in Lahore, Pakistan. Providing education, healthcare, and holistic development." name="description"/>
+<meta content="girls education programs, orphan support services, holistic child development, Lahore charity programs, girls empowerment initiatives" name="keywords"/>
+<meta content="Holistic Foster Care Foundation" name="author"/>
+<!-- Open Graph / Social Media Meta Tags -->
+<meta content="Our Programs - Holistic Foster Care Foundation" property="og:title"/>
+<meta content="Comprehensive support programs for orphaned and underprivileged girls in Lahore." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://holisticfostercare.org/services.html" property="og:url"/>
+<meta content="images/holistic-foster-care-og.jpg" property="og:image"/>
+<!-- Twitter Card data -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Programs - Holistic Foster Care Foundation" name="twitter:title"/>
+<meta content="Our comprehensive support programs for girls in Pakistan." name="twitter:description"/>
+<!-- Canonical URL -->
+<meta href="{% url "services" %}" rel="canonical">
+<!-- Page Title -->
+<title>Our Programs - Holistic Foster Care Foundation</title>
+<!-- Favicon Icon -->
+<link href="{% static 'images/favicon.png' %}" rel="shortcut icon" type="image/x-icon"/>
+<!-- Google Fonts Css-->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Onest:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Bootstrap Css -->
+<link href="{% static 'css/bootstrap.min.css' %}" media="screen" rel="stylesheet"/>
+<!-- SlickNav Css -->
+<link href="{% static 'css/slicknav.min.css' %}" rel="stylesheet"/>
+<!-- Swiper Css -->
+<link href="{% static 'css/swiper-bundle.min.css' %}" rel="stylesheet"/>
+<!-- Font Awesome Icon Css-->
+<link href="{% static 'css/all.min.css' %}" media="screen" rel="stylesheet"/>
+<!-- Animated Css -->
+<link href="{% static 'css/animate.css' %}" rel="stylesheet"/>
+<!-- Magnific Popup Core Css File -->
+<link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet"/>
+<!-- Mouse Cursor Css File -->
+<link href="{% static 'css/mousecursor.css' %}" rel="stylesheet"/>
+<!-- Main Custom Css -->
+<link href="{% static 'css/custom.css' %}" media="screen" rel="stylesheet"/>
+</meta></head>
+<body>
+<!-- Preloader Start -->
+<div class="preloader">
+<div class="loading-container">
+<div class="loading"></div>
+<div id="loading-icon"><img alt="Holistic Foster Care Foundation loading" src="https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png"/></div>
+</div>
+</div>
+<!-- Preloader End -->
+<!-- Header Start (Same as index.html) -->
+<header class="main-header">
+<div class="header-sticky">
+<nav class="navbar navbar-expand-lg">
+<div class="container">
+<!-- Logo Start -->
+<!-- Logo Start -->
+<a
+  aria-label="Holistic Foster Care Foundation homepage"
+  class="navbar-brand d-flex align-items-center gap-2"
+  href="{% url 'home' %}"
+  style="color: white; text-decoration: none;"
+>
+  <img
+    src="https://i.postimg.cc/Hsw-LcCWB/e93a3281-7980-468a-9d49-6204dfd4d5d0-removalai-preview.png"
+    alt="Holistic Foster Care Foundation Logo"
+    class="brand-logo img-fluid"
+  >
+  <span class="brand-name">Holistic Foster Care Foundation</span>
+</a>
+<style>
+  /* Logo image responsiveness and scaling */
+.brand-logo {
+  max-height: 50px;
+  width: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 1200px) {
+  .brand-logo {
+    max-height: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .brand-logo {
+    max-height: 70px;
+  }
+}
+
+/* Brand text styling */
+.brand-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s ease, font-size 0.3s ease;
+  white-space: nowrap;
+}
+
+/* Hover effect for better interactivity */
+.navbar-brand:hover .brand-logo {
+  transform: scale(1.05);
+}
+
+.navbar-brand:hover .brand-name {
+  color: #f0f0f0;
+}
+
+/* TV and ultra-wide displays: increase branding size */
+@media (min-width: 1920px) {
+  .brand-name {
+    font-size: 1.1rem;
+  }
+  .brand-logo {
+    max-height: 80px;
+  }
+}
+
+/* Very small devices (phones in portrait) */
+@media (max-width: 576px) {
+  .brand-name {
+    font-size: 0.9rem;
+  }
+  .brand-logo {
+    max-height: 40px;
+  }
+}
+
+</style>
+<!-- Logo End -->
+<!-- Main Menu Start -->
+<div class="collapse navbar-collapse main-menu">
+<div class="nav-menu-wrapper">
+<ul class="navbar-nav mr-auto" id="menu">
+<li class="nav-item">
+<a class="nav-link" href="{% url "home" %}">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "about" %}">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="{% url "services" %}">Our Programs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "team" %}">Our Team</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "testimonials" %}">Testimonials</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "blog" %}">News &amp; Updates</a>
+</li>
+<li class="nav-item">
+                    <a href="{% url "donation" %}" class="donate-btn">Support Us</a>
+                  </li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "contact" %}">Contact Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="{% url "faqs" %}">FAQs</a>
+</li>
+</ul>
+</div>
+<!-- Contact Now Box Start -->
+<div class="contact-now-box">
+<div class="icon-box">
+<img alt="Contact phone icon" src="{% static 'images/icon-phone.svg' %}"/>
+</div>
+<div class="contact-now-box-content">
+<p>Need help?</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+</div>
+<!-- Contact Now Box End -->
+</div>
+<!-- Main Menu End -->
+<div class="navbar-toggle"></div>
+</div>
+</nav>
+<div class="responsive-menu"></div>
+</div>
+</header>
+<!-- Header End -->
+<!-- Page Header Start -->
+<div class="page-header parallaxie">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-12">
+<!-- Page Header Box Start -->
+<div class="page-header-box">
+<h1 class="text-anime-style-2" data-cursor="-opaque">
+<span>Our</span> services
+              </h1>
+<nav class="wow fadeInUp">
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="{% url "home" %}">home</a></li>
+<li aria-current="page" class="breadcrumb-item active">
+                    services
+                  </li>
+</ol>
+</nav>
+</div>
+<!-- Page Header Box End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Page Header End -->
+<!-- Page Services Start -->
+<div class="page-services">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp">
+<div class="service-content">
+<h3>
+<a href="{% url "services" %}">Holistic Care &amp; Support</a>
+</h3>
+<p>
+                  Providing comprehensive physical, emotional, and social support for  orphaned and underprivileged girls
+                  in Lahore.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Holistic care for orphaned girls in Lahore" src="https://i.postimg.cc/T1Xq8MF3/Whats-App-Image-2025-04-18-at-2-15-00-AM-2.jpg"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="holisticCareModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+<div class="service-content">
+<h3><a href="{% url "services" %}">Quality Education</a></h3>
+<p>
+                  Partnering with local schools to provide formal education and learning support for each girl's academic
+                  success.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Education support for underprivileged girls in Pakistan" src="https://the.akdn/_next/image?url=https%3A%2F%2Fstatic.the.akdn%2F53832%2F1645796627-1645791609-akes-pakistan-31akhss-for_girls_hunza_r-1.jpg%3Fh%3D1200%26w%3D2000%26fm%3Djpg&w=3840&q=75"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="educationModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+<div class="service-content">
+<h3><a href="{% url "services" %}">Healthcare &amp; Nutrition</a></h3>
+<p>
+                  Ensuring balanced nutrition, regular medical check-ups, and complete mental and physical wellbeing.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Healthcare services for orphaned girls in Lahore" src="https://media.licdn.com/dms/image/v2/C511BAQEqlJFNsmOMqA/company-background_10000/company-background_10000/0/1584231221478/ghaliya_s_montessori_house_for_autism_cover?e=2147483647&v=beta&t=e6icZjnlK95J6qQ5wXSXkTm19RQysAALXRQazEJ5pkk"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="healthcareModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+<div class="service-content">
+<h3><a href="{% url "services" %}">Emotional Development</a></h3>
+<p>
+                  Professional counseling, mentorship programs, and activities that promote confidence and resilience.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Emotional support for vulnerable girls in Pakistan" src="{% static 'images/service.jpg' %}"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="emotionalSupportModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp" data-wow-delay="0.8s">
+<div class="service-content">
+<h3><a href="{% url "services" %}">Skill Development</a></h3>
+<p>
+                  Training in life skills, social interaction, IT, and arts &amp; crafts to build independent futures.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Skill development for girls in Lahore" src="https://i.postimg.cc/pdG6tTJX/SADSAD.jpg"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="skillsModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+<div class="col-lg-4 col-md-6">
+<!-- Services Item Start -->
+<div class="service-item wow fadeInUp" data-wow-delay="1s">
+<div class="service-content">
+<h3>
+<a href="{% url "services" %}">Community Integration</a>
+</h3>
+<p>
+                  Creating opportunities for social engagement, cultural activities, and community service projects.
+                </p>
+</div>
+<div class="service-image">
+<figure class="image-anime">
+<img alt="Community integration for orphaned girls in Pakistan" src="https://i.postimg.cc/T1Xq8MF3/Whats-App-Image-2025-04-18-at-2-15-00-AM-2.jpg"/>
+</figure>
+</div>
+<div class="service-btn">
+<a class="readmore-btn" data-modal-target="communityModal">read more</a>
+</div>
+</div>
+<!-- Services Item End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Modals for Services -->
+
+<!-- Holistic Care Modal -->
+<div class="modal fade" id="holisticCareModal" tabindex="-1" aria-labelledby="holisticCareModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title" id="holisticCareModalLabel">Holistic Care & Support</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://i.postimg.cc/T1Xq8MF3/Whats-App-Image-2025-04-18-at-2-15-00-AM-2.jpg" alt="Holistic care" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-primary">A Complete Support System</h4>
+            <p>At Holistic Foster Care Foundation, we provide comprehensive physical, emotional, and social support for
+               orphaned and underprivileged girls in Lahore.</p>
+            <p>Our holistic approach ensures that each girl receives:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-home text-primary me-2"></i> Safe and nurturing accommodation
+              </li>
+              <li class="list-group-item"><i class="fas fa-heart text-primary me-2"></i> Emotional support and
+                counseling</li>
+              <li class="list-group-item"><i class="fas fa-users text-primary me-2"></i> Community integration
+                activities</li>
+              <li class="list-group-item"><i class="fas fa-hands-helping text-primary me-2"></i> Personalized care plans
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Our Commitment</h5>
+          <p>Founded by Batool Bibi, a compassionate nurse from the UK, our foundation is dedicated to providing a safe
+            haven where girls can thrive in all aspects of their lives. We believe that true care means addressing the
+            whole person - mind, body, and spirit.</p>
+          <p>Our dedicated team works tirelessly to ensure each girl feels valued, supported, and empowered to build a
+            brighter future.</p>
+          <div class="text-center mt-4" style="display:none;">
+            <a class="readmore-btn" href="{% url 'services' %}" data-modal-target="holisticCareModal">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Education Modal -->
+<div class="modal fade" id="educationModal" tabindex="-1" aria-labelledby="educationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title" id="educationModalLabel">Quality Education</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://the.akdn/_next/image?url=https%3A%2F%2Fstatic.the.akdn%2F53832%2F1645796627-1645791609-akes-pakistan-31akhss-for_girls_hunza_r-1.jpg%3Fh%3D1200%26w%3D2000%26fm%3Djpg&w=3840&q=75" alt="Education support" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-success">Empowering Through Education</h4>
+            <p>We believe education is the cornerstone of empowerment. Our foundation partners with local schools to
+              provide formal education and comprehensive learning support.</p>
+            <p>Our educational program includes:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-school text-success me-2"></i> Access to quality schooling
+              </li>
+              <li class="list-group-item"><i class="fas fa-book text-success me-2"></i> After-school tutoring and
+                homework help</li>
+              <li class="list-group-item"><i class="fas fa-laptop text-success me-2"></i> Computer and digital literacy
+              </li>
+              <li class="list-group-item"><i class="fas fa-chart-line text-success me-2"></i> Academic progress
+                monitoring</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Education That Transforms Lives</h5>
+          <p>Our education program is designed to ensure that each girl has the support she needs to succeed
+            academically. We work closely with local schools and educators to create personalized learning plans that
+            address individual needs and goals.</p>
+          <p>With dedicated teachers like Fazeelat Qaiser and Tamkinat Qureshi, our girls receive quality instruction
+            and mentorship both in and out of the classroom.</p>
+          <div class="d-flex align-items-center mt-3 p-3 bg-light rounded">
+            <i class="fas fa-quote-left fa-2x text-success me-3"></i>
+            <p class="mb-0 fst-italic">"Education is not just about academics; it's about giving these girls the tools
+              they need to build independent futures and break the cycle of poverty."</p>
+          </div>
+          <div class="text-center mt-4" style="display:none;">
+            <a class="readmore-btn" href="{% url 'services' %}" data-modal-target="educationModal">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Healthcare Modal -->
+<div class="modal fade" id="healthcareModal" tabindex="-1" aria-labelledby="healthcareModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="healthcareModalLabel">Healthcare & Nutrition</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://media.licdn.com/dms/image/v2/C511BAQEqlJFNsmOMqA/company-background_10000/company-background_10000/0/1584231221478/ghaliya_s_montessori_house_for_autism_cover?e=2147483647&v=beta&t=e6icZjnlK95J6qQ5wXSXkTm19RQysAALXRQazEJ5pkk" alt="Healthcare services" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-danger">Comprehensive Health & Wellbeing</h4>
+            <p>With our founder's background as a healthcare professional, we place special emphasis on the physical
+              health and nutrition of our girls.</p>
+            <p>Our healthcare program ensures:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-utensils text-danger me-2"></i> Nutritionally balanced meals
+              </li>
+              <li class="list-group-item"><i class="fas fa-stethoscope text-danger me-2"></i> Regular medical check-ups
+              </li>
+              <li class="list-group-item"><i class="fas fa-teeth text-danger me-2"></i> Dental and vision care</li>
+              <li class="list-group-item"><i class="fas fa-brain text-danger me-2"></i> Mental health support</li>
+              <li class="list-group-item"><i class="fas fa-running text-danger me-2"></i> Physical fitness activities
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Health as a Foundation for Success</h5>
+          <p>Drawing on Batool Bibi's extensive experience as a nurse in the UK for over 20 years, our healthcare
+            program is designed with the highest standards. We understand that good health is essential for learning,
+            development, and overall wellbeing.</p>
+          <p>Our team includes qualified nutritionists like Tamkinat Qureshi who ensure that the girls receive
+            well-balanced meals that support their growth and development.</p>
+          <div class="row mt-4 mb-3">
+            <div class="col-md-4">
+              <div class="card h-100 bg-light border-0">
+                <div class="card-body text-center">
+                  <i class="fas fa-heartbeat text-danger fa-2x mb-3"></i>
+                  <h5 class="card-title">Physical Health</h5>
+                  <p class="card-text small">Regular check-ups and preventive care</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 bg-light border-0">
+                <div class="card-body text-center">
+                  <i class="fas fa-apple-alt text-danger fa-2x mb-3"></i>
+                  <h5 class="card-title">Nutrition</h5>
+                  <p class="card-text small">Balanced meals and dietary education</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 bg-light border-0">
+                <div class="card-body text-center">
+                  <i class="fas fa-smile text-danger fa-2x mb-3"></i>
+                  <h5 class="card-title">Mental Wellbeing</h5>
+                  <p class="card-text small">Counselling and emotional support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-3">
+            <a class="readmore-btn" href="{% url 'services' %}" data-modal-target="healthcareModal">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Emotional Development Modal -->
+<div class="modal fade" id="emotionalSupportModal" tabindex="-1" aria-labelledby="emotionalSupportModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-info text-white">
+        <h5 class="modal-title" id="emotionalSupportModalLabel">Emotional Development</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://prideschools.edu.pk/images/montessori-trainings/IMG_5871.jpg" alt="Emotional support" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-info">Building Emotional Resilience</h4>
+            <p>Many of our girls have experienced trauma and loss. Our emotional development program helps them heal and
+              build the confidence they need to thrive.</p>
+            <p>Key components include:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-comments text-info me-2"></i> Professional counseling</li>
+              <li class="list-group-item"><i class="fas fa-user-friends text-info me-2"></i> Mentorship programs</li>
+              <li class="list-group-item"><i class="fas fa-hand-holding-heart text-info me-2"></i> Trust-building
+                activities</li>
+              <li class="list-group-item"><i class="fas fa-seedling text-info me-2"></i> Personal growth workshops</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Expert-Led Emotional Support</h5>
+          <p>Under the guidance of Nighat Yasmin, our CEO and a qualified psychologist, we implement specialized
+            programs designed to help girls process their experiences, build resilience, and develop healthy emotional
+            responses.</p>
+          <p>We recognize that emotional wellbeing is essential for academic success and future independence. Our
+            approach combines individual counseling with group activities that foster connection and belonging.</p>
+          <div class="bg-light p-3 rounded mt-3">
+            <h6 class="text-info"><i class="fas fa-lightbulb me-2"></i> Our Approach</h6>
+            <p class="mb-0">We create a safe space where girls can express themselves, learn emotional regulation, and
+              develop positive coping strategies. Through creative arts, storytelling, and guided reflection, we help
+              them build the emotional intelligence they need to navigate life's challenges.</p>
+          </div>
+          <div class="text-center mt-4" style="display:none;">
+            <a class="readmore-btn" href="{% url 'services' %}" data-modal-target="emotionalSupportModal">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Development Modal -->
+<div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="skillsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-warning text-dark">
+        <h5 class="modal-title" id="skillsModalLabel">Skill Development</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://i.postimg.cc/pdG6tTJX/SADSAD.jpg" alt="Skill development" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-warning">Building Independent Futures</h4>
+            <p>We prepare our girls for successful, independent lives through comprehensive skill development programs
+              that go beyond traditional education.</p>
+            <p>Our skills training includes:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-cogs text-warning me-2"></i> Practical life skills</li>
+              <li class="list-group-item"><i class="fas fa-desktop text-warning me-2"></i> Computer and IT training</li>
+              <li class="list-group-item"><i class="fas fa-paint-brush text-warning me-2"></i> Arts and crafts</li>
+              <li class="list-group-item"><i class="fas fa-comment-dollar text-warning me-2"></i> Financial literacy
+              </li>
+              <li class="list-group-item"><i class="fas fa-handshake text-warning me-2"></i> Communication skills</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Preparing for Life Beyond Our Walls</h5>
+          <p>Our skill development program is designed to equip girls with the practical abilities they need to succeed
+            in today's world. From managing a household budget to navigating social situations, we provide comprehensive
+            training that prepares them for independent living.</p>
+          <p>With dedicated instructors and regular workshops, we ensure that each girl develops a diverse set of skills
+            that will serve her throughout life.</p>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="d-flex align-items-start mb-3">
+                <div class="bg-warning text-white rounded-circle p-2 me-3"
+                  style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-laptop"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Digital Literacy</h6>
+                  <p class="small text-muted mb-0">Essential computer skills for the modern world</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start mb-3">
+                <div class="bg-warning text-white rounded-circle p-2 me-3"
+                  style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-palette"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Creative Expression</h6>
+                  <p class="small text-muted mb-0">Art, craft, and creative problem-solving</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start mb-3">
+                <div class="bg-warning text-white rounded-circle p-2 me-3"
+                  style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-coins"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Financial Independence</h6>
+                  <p class="small text-muted mb-0">Budgeting, saving, and planning for the future</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start mb-3">
+                <div class="bg-warning text-white rounded-circle p-2 me-3"
+                  style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div>
+                  <h6 class="mb-1">Social Skills</h6>
+                  <p class="small text-muted mb-0">Communication, collaboration, and leadership</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Community Integration Modal -->
+<div class="modal fade" id="communityModal" tabindex="-1" aria-labelledby="communityModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-secondary text-white">
+        <h5 class="modal-title" id="communityModalLabel">Community Integration</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://i.postimg.cc/T1Xq8MF3/Whats-App-Image-2025-04-18-at-2-15-00-AM-2.jpg" alt="Community integration" class="img-fluid rounded mb-3">
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-secondary">Connecting With the Broader World</h4>
+            <p>We believe that our girls should be active, engaged members of their community. Our community integration
+              program creates opportunities for them to connect with the world beyond our walls.</p>
+            <p>Program highlights include:</p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fas fa-theater-masks text-secondary me-2"></i> Cultural activities
+                and celebrations</li>
+              <li class="list-group-item"><i class="fas fa-hands-helping text-secondary me-2"></i> Community service
+                projects</li>
+              <li class="list-group-item"><i class="fas fa-globe text-secondary me-2"></i> Field trips and educational
+                outings</li>
+              <li class="list-group-item"><i class="fas fa-user-friends text-secondary me-2"></i> Social interaction
+                opportunities</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <h5 class="border-bottom pb-2">Building Bridges to Society</h5>
+          <p>Community integration is essential for our girls' future success. Through meaningful engagement with the
+            broader community, they develop social confidence, cultural awareness, and a sense of civic responsibility.
+          </p>
+          <p>Hussain Suhail, a dedicated social worker on our team, helps facilitate connections between our girls and
+            the community, creating opportunities for mutual learning and growth.</p>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <div class="card border-0 bg-light h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-hand-holding-heart text-secondary fa-2x mb-3"></i>
+                  <h6>Service Learning</h6>
+                  <p class="small mb-0">Giving back through volunteer projects</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 bg-light h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-landmark text-secondary fa-2x mb-3"></i>
+                  <h6>Cultural Engagement</h6>
+                  <p class="small mb-0">Celebrating holidays and traditions</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0 bg-light h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-bus text-secondary fa-2x mb-3"></i>
+                  <h6>Educational Outings</h6>
+                  <p class="small mb-0">Exploring museums, parks, and local sites</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-light p-3 rounded mt-4">
+            <p class="mb-0 fst-italic">"Our vision for Holistic Foster Care Foundation Girls is to ensure their strong presence in
+              the community, enabling them to become independent, support their families, and contribute to society." -
+              Hussain Suhail</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- STEP 2: Add this simplified JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Get all read more buttons with the data-modal-target attribute
+    const readMoreBtns = document.querySelectorAll('.readmore-btn[data-modal-target]');
+
+    // Add click event listeners to each button
+    readMoreBtns.forEach((btn) => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Get the modal ID from the data attribute
+        const modalId = this.getAttribute('data-modal-target');
+
+        if (modalId) {
+          const modalElement = document.getElementById(modalId);
+          if (modalElement) {
+            const modal = new bootstrap.Modal(modalElement);
+            modal.show();
+          } else {
+            console.error(`Modal with ID ${modalId} not found`);
+          }
+        }
+      });
+    });
+  });
+</script>
+
+<!-- Required Font Awesome and Bootstrap Libraries -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+<!-- Page Services End -->
+<!-- Why Choose Us Section Start -->
+<div class="why-choose-us service-why-choose-us">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<!-- Why Choose Images Start -->
+<div class="why-choose-images">
+<div class="why-choose-image-1">
+<figure class="image-anime">
+<img style="object-position: center top;" alt="Girls receiving care at Holistic Foster Care Foundation" src="{% static 'images/unique.jpg' %}"/>
+</figure>
+</div>
+<div class="why-choose-image-2">
+<figure class="image-anime">
+<img alt="Batool Bibi with children at Holistic Foster Care Foundation" src="https://i.postimg.cc/1tgqdPQb/Whats-App-Image-2025-04-18-at-2-16-36-AM-1.jpg"/>
+</figure>
+</div>
+</div>
+<!-- Why Choose Images End -->
+</div>
+<div class="col-lg-6">
+<!-- Why Choose Content Start -->
+<div class="why-choose-content">
+<!-- Section Title Start -->
+<div class="section-title">
+<h3 class="wow fadeInUp">why choose us</h3>
+<h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Our Unique Approach to Foster Care
+                </h2>
+<p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Founded by UK healthcare professional Batool Bibi, our foundation offers a truly holistic approach to
+                  care. We focus on the complete development of each girl—physical, emotional, educational, and
+                  social—creating a nurturing environment where they can truly thrive.
+                </p>
+</div>
+<!-- Section Title End -->
+<!-- Why Choose List Start -->
+<div class="why-choose-list wow fadeInUp" data-wow-delay="0.4s">
+<ul>
+<li>Professional healthcare expertise and guidance</li>
+<li>Comprehensive well-being and educational programs</li>
+<li>Individual attention and personalized care plans</li>
+<li>Strong community connections and support network</li>
+</ul>
+</div>
+<!-- Why Choose List End -->
+<!-- Why Choose Counters Start -->
+<div class="why-choose-counters">
+<!-- Why Choose Counters Item Start -->
+<div class="why-choose-counter-item">
+<h2><span class="counter">30</span>+</h2>
+<p>Girls receiving care</p>
+</div>
+<!-- Why Choose Counters Item End -->
+<!-- Why Choose Counters Item Start -->
+<div class="why-choose-counter-item">
+<h2><span class="counter">20</span>+</h2>
+<p>Dedicated staff &amp; volunteers</p>
+</div>
+<!-- Why Choose Counters Item End -->
+<!-- Why Choose Counters Item Start -->
+<div class="why-choose-counter-item">
+<h2><span class="counter">5</span>+</h2>
+<p>Development programs</p>
+</div>
+<!-- Why Choose Counters Item End -->
+</div>
+<!-- Why Choose Counters End -->
+</div>
+<!-- Why Choose Content End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Why Choose Us Section End -->
+<!-- Our Features Section Start -->
+    <div class="our-features">
+      <div class="container">
+        <div class="row section-row">
+          <div class="col-lg-12">
+            <!-- Section Title Start -->
+            <div class="section-title">
+              <h3 class="wow fadeInUp">our impact</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Creating lasting change for girls in Pakistan
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                At Holistic Foster Care Foundation, we're dedicated to transforming lives through our comprehensive approach to girls'
+                well-being. Founded by UK nurse Batool Bibi, we provide education, healthcare, and emotional support to
+                create future leaders.
+              </p>
+            </div>
+            <!-- Section Title End -->
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Our Features List Start -->
+            <div class="our-features-list">
+              <!-- Our Features Item Start -->
+              <div class="our-features-item">
+                <!-- Our Features Image Start -->
+                <div class="our-features-image">
+                  <figure class="image-anime reveal">
+                    <img src="{% static 'images/health2.jpg' %}" alt="Healthcare support for girls at Holistic Foster Care Foundation" />
+                  </figure>
+                </div>
+                <!-- Our Features Image End -->
+
+                <!-- Our Features Content Start -->
+                <div class="our-features-content">
+                  <div class="our-features-body">
+                    <h2><span class="counter">100</span>%</h2>
+                    <h3>healthcare access</h3>
+                    <p>
+                      All  girls receive comprehensive healthcare including regular check-ups, vaccinations, and mental
+                      health support.
+                    </p>
+                  </div>
+                  <div class="icon-box">
+                    <img src="{% static 'images/icon-our-features-1.svg' %}" alt="" />
+                  </div>
+                </div>
+                <!-- Our Features Content End -->
+              </div>
+              <!-- Our Features Item End -->
+
+              <!-- Our Features Item Start -->
+              <div class="our-features-item">
+                <!-- Our Features Image Start -->
+                <div class="our-features-image">
+                  <figure class="image-anime reveal">
+                    <img src="{% static 'images/education.jpg' %}" alt="Education for orphaned girls in Lahore" />
+                  </figure>
+                </div>
+                <!-- Our Features Image End -->
+
+                <!-- Our Features Content Start -->
+                 
+                <div class="our-features-content">
+                  <div class="our-features-body">
+                    <h2><span class="counter">100</span>%</h2>
+                    <h3>education enrollment</h3>
+                    <p>
+                      Every girl at our center is enrolled in formal education with additional tutoring and learning
+                      support.
+                    </p>
+                  </div>
+                  <div class="icon-box">
+                    <img src="{% static 'images/icon-our-features-2.svg' %}" alt="" />
+                  </div>
+                </div>
+                <!-- Our Features Content End -->
+              </div>
+              <!-- Our Features Item End -->
+
+              <!-- Our Features Item Start -->
+              <div class="our-features-item">
+                <!-- Our Features Image Start -->
+                <div class="our-features-image">
+                  <figure class="image-anime reveal">
+                    <img src="{% static 'images/header1.jpg' %}" alt="Nutritional support for underprivileged girls" />
+                  </figure>
+                </div>
+                <!-- Our Features Image End -->
+
+                <!-- Our Features Content Start -->
+                <div class="our-features-content">
+                  <div class="our-features-body">
+                    <h2><span class="counter">100</span>%</h2>
+                    <h3>nutritional support</h3>
+                    <p>
+                      Providing balanced, nutritious meals three times daily to ensure proper growth and development for all
+                      girls.
+                    </p>
+                  </div>
+                  <div class="icon-box">
+                    <img src="{% static 'images/icon-our-features-3.svg' %}" alt="" />
+                  </div>
+                </div>
+                <!-- Our Features Content End -->
+              </div>
+              <!-- Our Features Item End -->
+            </div>
+            <!-- Our Features List End -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Features Section End -->
+
+<!-- Our Faqs Section Start -->
+<div class="our-faqs">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="faqs-content">
+<!-- Section Title Start -->
+<div class="section-title">
+<h3 class="wow fadeInUp">faq</h3>
+<h2 class="text-anime-style-2" data-cursor="-opaque">
+                Common questions about our foundation
+              </h2>
+</div>
+<!-- Section Title End -->
+<!-- FAQ Accordion Start -->
+<div class="faq-accordion" id="faqaccordion">
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp">
+<h2 class="accordion-header" id="heading1">
+<button aria-controls="collapse1" aria-expanded="true" class="accordion-button collapsed" data-bs-target="#collapse1" data-bs-toggle="collapse" type="button">
+                    What is the mission of Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading1" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse1">
+<div class="accordion-body">
+<p>
+                      Our mission is to provide a safe, nurturing home for  orphaned and underprivileged girls in
+                      Lahore, Pakistan. We focus on their holistic development through quality education, healthcare,
+                      emotional support, and skill development, empowering them to build independent and fulfilling
+                      futures.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+<h2 class="accordion-header" id="heading2">
+<button aria-controls="collapse2" aria-expanded="false" class="accordion-button" data-bs-target="#collapse2" data-bs-toggle="collapse" type="button">
+                    How can I support Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading2" class="accordion-collapse collapse show" data-bs-parent="#faqaccordion" id="collapse2">
+<div class="accordion-body">
+<p>
+                      You can support our foundation by making a donation, sponsoring a girl's education or healthcare,
+                      volunteering your time and skills, or helping spread awareness about our work. Every contribution,
+                      regardless of size, makes a meaningful difference in these girls' lives. Contact us directly to
+                      discuss how you can get involved.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+<h2 class="accordion-header" id="heading3">
+<button aria-controls="collapse3" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse3" data-bs-toggle="collapse" type="button">
+                    Where do your donations go?
+                  </button>
+</h2>
+<div aria-labelledby="heading3" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse3">
+<div class="accordion-body">
+<p>
+                      Your donations directly support our girls' well-being and development. Funds are used for daily
+                      operational costs, school fees and educational materials, nutritious meals and healthcare, staff
+                      salaries, and recreational activities. We maintain transparency in our financial operations and are
+                      committed to maximizing the impact of every contribution.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+<h2 class="accordion-header" id="heading4">
+<button aria-controls="collapse4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse4" data-bs-toggle="collapse" type="button">
+                    Who founded Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading4" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse4">
+<div class="accordion-body">
+<p>
+                      The foundation was established by Batool Bibi, a dedicated nurse with over 20 years of experience in
+                      the UK healthcare system. After witnessing the struggles of orphaned and underprivileged girls in
+                      Pakistan, she left her career abroad to create a comprehensive support system that addresses not
+                      just their basic needs, but their complete well-being and future prospects.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+<!-- FAQ Item Start -->
+<div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+<h2 class="accordion-header" id="heading5">
+<button aria-controls="collapse5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#collapse5" data-bs-toggle="collapse" type="button">
+                    How can I volunteer with Holistic Foster Care Foundation?
+                  </button>
+</h2>
+<div aria-labelledby="heading5" class="accordion-collapse collapse" data-bs-parent="#faqaccordion" id="collapse5">
+<div class="accordion-body">
+<p>
+                      We welcome volunteers with various skills and backgrounds. Whether you're a teacher, healthcare
+                      professional, artist, or simply passionate about helping, there are numerous ways to contribute.
+                      Contact us at +92 322 0711929 or visit our center at 6F-2 Model Town Link Road, Lahore to discuss
+                      volunteer opportunities that match your skills and availability.
+                    </p>
+</div>
+</div>
+</div>
+<!-- FAQ Item End -->
+</div>
+<!-- FAQ Accordion End -->
+</div>
+</div>
+<div class="col-lg-6">
+<!-- Faqs Image Start -->
+<div class="faqs-image">
+<div class="faqs-img-1">
+<figure class="image-anime reveal">
+<img alt="Girls receiving education at Holistic Foster Care Foundation" src="{% static 'images/service2.jpg' %}"/>
+</figure>
+</div>
+<div class="faqs-img-2">
+<figure class="image-anime reveal">
+<img alt="Supportive environment at Holistic Foster Care Foundation in Lahore" src="https://i.postimg.cc/pdG6tTJX/SADSAD.jpg"/>
+</figure>
+</div>
+</div>
+<!-- Faqs Image End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Our Faqs Section End -->
+<!-- Main Footer Section Start -->
+
+<!-- Main Footer Section End -->
+<!-- Jquery Library File -->
+<script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+<!-- Bootstrap js file -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- Validator js file -->
+<script src="{% static 'js/validator.min.js' %}"></script>
+<!-- SlickNav js file -->
+<script src="{% static 'js/jquery.slicknav.js' %}"></script>
+<!-- Swiper js file -->
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<!-- Counter js file -->
+<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<!-- Isotop js file -->
+<script src="{% static 'js/isotope.min.js' %}"></script>
+<!-- Magnific js file -->
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<!-- SmoothScroll -->
+<script src="{% static 'js/SmoothScroll.js' %}"></script>
+<!-- Parallax js -->
+<script src="{% static 'js/parallaxie.js' %}"></script>
+<!-- MagicCursor js file -->
+<script src="{% static 'js/gsap.min.js' %}"></script>
+<script src="{% static 'js/magiccursor.js' %}"></script>
+<!-- Text Effect js file -->
+<script src="{% static 'js/SplitText.js' %}"></script>
+<script src="{% static 'js/ScrollTrigger.min.js' %}"></script>
+<!-- YTPlayer js File -->
+<script src="{% static 'js/jquery.mb.YTPlayer.min.js' %}"></script>
+<!-- Wow js file -->
+<script src="{% static 'js/wow.min.js' %}"></script>
+<!-- Main Custom js file -->
+<script src="{% static 'js/function.js' %}"></script>
+
+<!-- Main Footer Section Start -->
+<footer class="main-footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<!-- Main Footer Box Start -->
+<div class="main-footer-box">
+<!-- Footer About Start -->
+<div class="footer-about">
+<!-- Footer Logo Start -->
+<div class="footer-logo">
+<strong style="color: white; font-size: 24px;">Holistic Foster Care Foundation</strong>
+</div>
+<!-- Footer Logo End -->
+<!-- Footer Contact Detail Start -->
+<div class="footer-contact-detail">
+<div class="footer-contact-item">
+<p>Contact our support team</p>
+<h3><a href="tel:+923220711929">+92 322 0711929</a></h3>
+</div>
+<div class="footer-contact-item">
+<p>Need information or support?</p>
+<h3>
+<a href="mailto:info@holisticfostercare.org">info@holisticfostercare.org</a>
+</h3>
+</div>
+</div>
+<!-- Footer Contact Detail End -->
+<!-- Footer Social Links Start -->
+<div class="footer-social-links">
+<h3>Follow us</h3>
+<ul>
+<li>
+<a aria-label="WhatsApp" href="https://whatsapp.com/channel/0029VbAf5g0JUM2Ww4vtzs1c" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+</li>
+<li>
+<a aria-label="TikTok" href="https://www.tiktok.com/@batoolbibi103?_t=ZN-8wrdj5ILQwA&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+</li>
+<li>
+<a aria-label="Facebook" href="https://www.facebook.com/share/1Bbqc1KgC6/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+</li>
+<li>
+<a aria-label="Instagram" href="https://www.instagram.com/holisticfostercarefoundation?igsh=MTk3ZW14NWxsejZs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</li>
+</ul>
+</div>
+<!-- Footer Social Links End -->
+</div>
+<!-- Footer About End -->
+<!-- Footer Links Box Start -->
+<div class="footer-links-box">
+<!-- Newsletter Form Start -->
+<div class="newsletter-form">
+<form action="#" id="newsletterForm" method="POST">
+<div class="form-group">
+<input class="form-control" id="mail" name="email" placeholder="Subscribe to our newsletter" required="" type="email"/>
+<button aria-label="Submit" class="newsletter-btn" type="submit">
+<i class="fa-regular fa-paper-plane"></i>
+</button>
+</div>
+</form>
+</div>
+<!-- Newsletter Form End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="{% url "home" %}">Home</a></li>
+<li><a href="{% url "about" %}">About Us</a></li>
+<li><a href="{% url "services" %}">Services</a></li>
+<li><a href="{% url "team" %}">Our Team</a></li>
+<li><a href="{% url "contact" %}">Contact</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links footer-service-links">
+<h3>Our Programs</h3>
+<ul>
+<li><a href="{% url "services" %}">Education Support</a></li>
+<li><a href="{% url "services" %}">Healthcare &amp; Nutrition</a></li>
+<li><a href="{% url "services" %}">Emotional Well-being</a></li>
+<li><a href="{% url "services" %}">Skill Development</a></li>
+<li><a href="{% url "donation" %}">Sponsor a Girl</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+<!-- Footer Links Start -->
+<div class="footer-links">
+<h3>Resources</h3>
+<ul>
+<li><a href="{% url "blog" %}">Blog</a></li>
+<li><a href="{% url "faqs" %}">FAQs</a></li>
+<li><a href="{% url "testimonials" %}">Testimonials</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+<!-- Footer Links End -->
+</div>
+<!-- Footer Links Box End -->
+</div>
+<!-- Main Footer Box End -->
+</div>
+</div>
+</div>
+<!-- Footer Copyright Start -->
+<div class="footer-copyright">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<!-- Copyright Text Start -->
+<div class="copyright-text">
+<p>Copyright © 2023 Holistic Foster Care Foundation. All Rights Reserved. <br/>
+<small>6F-2 Model Town Link Road, Lahore, 54600, Pakistan</small>
+</p><b style="color: white;"><a href="https://wa.me/923010302075" target="_blank" style="color: white; text-decoration: none;">Design and Developed by Ray Design</a></b>
+</div>
+<!-- Copyright Text End -->
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Copyright End -->
+</footer>
+</body>
+</html>
